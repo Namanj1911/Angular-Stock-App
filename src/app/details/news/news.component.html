@@ -1,0 +1,7 @@
+<section class="main-area">
+    <h2>NEWS LIST</h2>
+    <mat-card class="news-area" *ngFor='let news of newsArray'>
+        <mat-card-title class="news-title">{{news.title}}</mat-card-title>
+        <mat-card-content>Read Full Story at: <br> <a>{{news.link}}</a></mat-card-content>
+    </mat-card>
+</section>

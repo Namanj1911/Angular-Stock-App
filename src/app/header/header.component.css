@@ -1,0 +1,28 @@
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 15vh;
+    justify-content: space-around;
+}
+.page{
+    text-decoration: none;
+    color: white;
+}
+.page:hover{
+    color: #ffd740;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid palegreen;
+    font-size: large;
+    border-radius: 10px;
+}
+.list:hover{
+    color: palegreen;
+}

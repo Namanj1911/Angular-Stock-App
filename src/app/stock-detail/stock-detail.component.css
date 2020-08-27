@@ -1,0 +1,9 @@
+.one{
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+}

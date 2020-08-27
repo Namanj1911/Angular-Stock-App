@@ -1,0 +1,13 @@
+<mat-toolbar color="primary" class="header">Stock-Market-App
+    <a routerLink='dashboard' class="page">Home Page</a>
+    <div>
+        <button mat-button [matMenuTriggerFor]="menu" class="list">Click to see Company wise Data</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item routerLink='contentView' (click)='needNWG()'>Natwest Group</button>
+            <button mat-menu-item routerLink='contentView' (click)='needICICI()'>ICICI BANK</button>
+            <button mat-menu-item routerLink='contentView' (click)='needSBI()'>State Bank of India</button>
+            <button mat-menu-item routerLink='contentView' (click)='needKOTAK()'>Kotak Bank</button>
+            <button mat-menu-item routerLink='contentView' (click)='needNIIT()'>NIIT ltd</button>
+        </mat-menu>
+    </div>
+</mat-toolbar>
